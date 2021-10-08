@@ -16,7 +16,7 @@ let NUMEROLISTA = [
 ]
 
 app.get('/', function (req, res) {
-    res.json(['1 5 8 2 5'])
+    res.json(NUMEROLISTA)
 })
  
  app.listen(PORT)
