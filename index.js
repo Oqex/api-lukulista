@@ -8,15 +8,15 @@ functin arvoNumero(alaraja, ylaraja) {
 }
 
 
+
 app.get('/', function (req, res) {
     let numerolista = [
-         arvoNumero(0,5),
-         arvoNumero(10,15),
-         arvoNumero(100,500),
-         arvoNumero(10,20),
-         arvoNumero(0,5),
+        arvoNumero(0,5),
+        arvoNumero(10,15),
+        arvoNumero(100,500),
+        arvoNumero(10,20),
+        arvoNumero(0,5),
     ]
-
     res.json(numerolista)
 })
  
